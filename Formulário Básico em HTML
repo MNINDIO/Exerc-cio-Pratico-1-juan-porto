@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Básico em HTML</title>
+</head>
+<body>
+    <h2>Cadastro de usuário <br></h2>
+
+    <form action="/submit_form" method="post"></form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome" required><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="text" id="senha" name="senha" placeholder="Digite sua senha" required><br><br>
+        <input type="submit" value="Entrar">
+</body>
+</body>
+
+</body>
+</html>
