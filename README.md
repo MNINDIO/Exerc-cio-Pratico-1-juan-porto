@@ -1,1 +1,0 @@
-# Exerc-cio-Pratico-1-juan-porto
