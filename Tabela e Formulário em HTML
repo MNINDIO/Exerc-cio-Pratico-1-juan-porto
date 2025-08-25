@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Lista de produtos</h2>
+    <table border="1">
+        <tr>
+            <th>
+                Produto
+            </th>
+            <th>Preço</th>
+            <th>Quantidade de estoque</th>
+        </tr>
+        <tr>
+            <td>
+                Notebook
+            </td>
+            <td>
+                R$ 3.500,00
+            </td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Mouse Gamer</td>
+            <td>R$ 120,00</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Teclado Mecânico</td>
+            <td>280,00</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+    <h2>Formulário de pedido</h2>
+    <label for="nome do cliente">Nome do Cliente:</label>
+    <input type="text" id="nome do cliente" name="" placeholder="Nome do cliente" required><br><br>
+
+    <label for="produto">Produto desejado:</label><br>
+    <select name="produto" id="produto">
+        <option value="Notebook">Notebook:</option>
+        <option value="Mouse Gamer">Mouse Gamer:</option>
+        <option value="Teclado Mecânico">Teclado Mecânico:</option>
+        </select><br><br>
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="text" id="quantidade" name="quantidade" min="1" required><br><br>
+        
+        <input type="submit" value="Enviar pedido">
+
+</body>
+</html>
